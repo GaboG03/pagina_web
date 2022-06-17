@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [build]
 command = 'hugo'
 publish = 'public'
@@ -15,3 +16,22 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
+=======
+[build]
+command = 'hugo'
+publish = 'public'
+[build.environment]
+HUGO_VERSION = '0.101.0'
+
+
+[context]
+[context.branch-deploy]
+command = 'hugo -F -b $DEPLOY_PRIME_URL'
+
+[context.deploy-preview]
+command = 'hugo -F -b $DEPLOY_PRIME_URL'
+
+[context.production]
+[context.production.environment]
+HUGO_ENV = 'production'
+>>>>>>> 1ac00dae3aed6e56e19858a7fea149284721face

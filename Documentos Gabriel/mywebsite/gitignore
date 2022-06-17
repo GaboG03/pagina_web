@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 .DS_Store
+=======
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+>>>>>>> 1ac00dae3aed6e56e19858a7fea149284721face
 Thumbs.db
